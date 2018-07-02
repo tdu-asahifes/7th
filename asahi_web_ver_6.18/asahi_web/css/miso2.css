@@ -37,7 +37,8 @@ ul{
 li{
   list-style-type: none;
   display: inline-block;
-  margin: 10px;
+  margin-top: 10px;
+  margin-right: 30px;
 }
 
 li a{
@@ -76,6 +77,24 @@ section .test_bg2{
   height: 800px;
 }
 
+section .test_bg2 h1{
+  margin: 0;
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+section .test_bg2 blockquote{
+  background-color: #0000008c;
+  width: 600px;
+  height: 600px;
+  margin: 15px auto;
+}
+
+section .test_bg2 p{
+  color: #fff;
+}
+
 section .test_bg3{
   background-image: url(../img/teriyaki4.jpg);
   background-size: cover;
@@ -84,9 +103,53 @@ section .test_bg3{
   height: 800px;
 }
 
+section .test_bg3 h1{
+  margin: 0;
+  padding-top: 40px;
+  text-align: center;
+  color: #fff;
+}
+
+section .test_bg3 blockquote{
+  background-color: #0000008c;
+  width: 600px;
+  height: 600px;
+  margin: 15px auto;
+}
+
+section .test_bg3 p{
+  color: #fff;
+}
+
 footer{ 
+  color: #fff;
 }
 
 footer .under{
   background-color: rgba(0,0,0,1);
+
 } 
+
+.under .spot{
+  text-align: right;
+}
+
+.under_sns:hover{
+  opacity: 0.5;
+  transition: 0.6s;
+}
+
+.under_from:hover{
+  opacity: 0.5;
+  transition: 0.6s;
+}
+
+.under_dendai:hover{
+  opacity: 0.5;
+  transition: 0.6s
+}
+
+.chart:hover{
+  opacity: 0.5;
+  transition: 0.6s;
+}
