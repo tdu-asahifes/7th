@@ -1,0 +1,72 @@
+<! DOCTYPE html>
+<html>
+<head>
+  <title>第7回旭祭実行委員会</title>
+
+  <link rel="stylesheet" href="../css/scroll.css">
+  <link rel="stylesheet" href="../css/miso2.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="../script/jquery.scrollify.js"></script>
+  <script>
+  var option = {
+    section : '.js-section', // 対象を指定
+    easing: "swing", // イージングをしてい(jQueryのanimation)
+    scrollSpeed: 600, // スクロール時の速度
+    scrollbars: true, // スクロールバーを表示するか
+  };
+  $(function() {
+    $.scrollify(option); // scrollifyの実行
+  });
+  </script>
+</head>
+<body>
+  <div class="main">
+    <section class="background">
+    <section class="section section-1 js-section" data-section-name="section1">
+      <header>
+        <div class="navber">
+          <nav>
+            <ul>
+              <li>
+                <div class="sns">
+                  <a href="https://twitter.com/asahisai" >Twitter</a>
+                </div>
+              </li>
+              <li>
+                <div class="from">
+                  <a href="https://goo.gl/maps/NKC66t4fEH72" target="_blank">FROM</a>
+                </div>
+              </li>
+              <li>
+                <div class="dendai">
+                  <a href="https://www.dendai.ac.jp/">TDU</a>
+                </div>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <h1>The 7th Asahi Festival in 2018<br>
+          11/3(土) 11/4(日)
+      </h1>
+    </section>
+
+    <section class="section section-2 js-section" data-section-name="section2">
+
+    </section>
+
+    <section class="section section-3 js-section" data-section-name="section3">
+      <div class="section-content">
+        <h2>section 3</h2>
+
+      </div>
+    </section>
+  </section>
+    <ul class="pager" id="js-pager"></ul>
+  </div>
+
+
+
+
+</body>
+</html>
