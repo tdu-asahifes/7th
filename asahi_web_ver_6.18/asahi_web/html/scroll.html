@@ -2,11 +2,13 @@
 <html>
 <head>
   <title>第7回旭祭実行委員会</title>
-
-  <link rel="stylesheet" href="../css/scroll.css">
+<!--##################################読み込み################################################-->
   <link rel="stylesheet" href="../css/miso2.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="../script/jquery.scrollify.js"></script>
+  <!--##################################読み込みend################################################-->
+  
+  <!--scroll_start-->
   <script>
   var option = {
     section : '.js-section', // 対象を指定
@@ -17,12 +19,12 @@
   $(function() {
     $.scrollify(option); // scrollifyの実行
   });
-  </script>
+  </script><!--scroll_end-->
 </head>
 <body>
   <div class="main">
     <section class="background">
-    <section class="section section-1 js-section" data-section-name="section1">
+    <section class="section section-1 js-section" data-section-name="section1"><!--section1start-->
       <header>
         <div class="navber">
           <nav>
@@ -47,26 +49,63 @@
         </div>
       </header>
       <h1>The 7th Asahi Festival in 2018<br>
-          11/3(土) 11/4(日)
+          11/3(土) 11/4(日)<br>
+          coming soon...
       </h1>
-    </section>
+    </section><!--section1end-->
 
-    <section class="section section-2 js-section" data-section-name="section2">
+    <section class="section section-2 js-section" data-section-name="section2"><!--section2start-->
 
-    </section>
+    </section><!--section2end-->
 
-    <section class="section section-3 js-section" data-section-name="section3">
+    <section class="section section-3 js-section" data-section-name="section3"><!--section3start-->
       <div class="section-content">
-        <h2>section 3</h2>
-
       </div>
-    </section>
+      <h2>section 3</h2>
+      <!--footer調整start-->
+        <div id="footer_test">
+        <footer>
+          <div class="under">
+            <nav>
+               <ul>
+                 <li>
+                   <div class="under_sns">
+                      <a href="https://twitter.com/asahisai" >Twitter</a>
+                   </div>
+                 </li>
+                 <li>
+                   <div class="under_from">
+                      <a href="https://goo.gl/maps/NKC66t4fEH72" target="_blank">Google Map</a>
+                   </div>
+                 </li>
+                 <li>
+                   <div class="under_dendai">
+                     <a href="https://www.dendai.ac.jp" target="_blank">TDU</a>
+                   </div>
+                 </li>
+                 <li>
+                   <div class="archive">
+                     <a href="http://www.sg.dendai.ac.jp/s1j-asahisai/archive/6th/index.html" target="_blank">Archive</a>
+                   </div>
+                 </li>
+                 <div class="spot">
+                 <li>
+                   <p class="contact">TEL/FAX 03-5284-5358 </p>
+                 </li>
+                 <li>
+                   <p class="street_address">〒120-8551 東京都足立区千住旭町5</p>
+                 </li>
+                 </div>
+               </ul>
+             </nav>
+          </div>
+         </div>
+         </footer>
+         
+        <!--footer調整end-->
+    </section><!--section3end-->
   </section>
     <ul class="pager" id="js-pager"></ul>
   </div>
-
-
-
-
 </body>
 </html>
