@@ -31,16 +31,14 @@ header .navber{
   transition: 0.6s;
 }
 
-h1{
-  
+h1{ 
   font-size: xx-large;
   text-align: center;
   color: #fff;
   position: absolute;
-  margin: 400px auto;
   right: 0;
   left: 0;
-  top: 0;
+  top: 30vh;
   bottom: 0;
 }
 
@@ -49,11 +47,18 @@ h2{
   text-align: center;
   color: #fff;
   position: absolute;
-  margin: 100px auto;
   right: 0;
   left: 0;
-  top: 0;
-  bottom: 0;
+
+}
+
+h3{
+  font-size: xx-large;
+  text-align: center;
+  color: #fff;
+  position: absolute;
+  right: 0;
+  left: 0;
 }
 
 ul{
@@ -79,7 +84,7 @@ a{
 name{
   color: #fff;
   position: absolute;
-  right: 20px;
+  left: 13vw;
   font-size: large; 
 }
 /*
@@ -108,16 +113,20 @@ section .test_bg2{
 }
 */
 blockquote{
-  position: absolute;
+  position: absolute; 
+  top:10vh;
+  right: 25vw;
+  bottom: 20vh;
   background-color: #0000008c;
-  width: 700px;
-  height: 600px;
-  margin: 200px;
+  width: 40vw;
+  height: 80vh;
+  
 }
 
 p{
   font-size: large; 
   color: #fff;
+  
 }
 /*
 section .test_bg3{
