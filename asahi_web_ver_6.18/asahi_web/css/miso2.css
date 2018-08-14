@@ -85,7 +85,7 @@ name{
   color: #fff;
   position: absolute;
   left: 13vw;
-  font-size: large; 
+  font-size: x-large; 
 }
 /*
 section .test_bg1{
@@ -124,7 +124,8 @@ blockquote{
 }
 
 p{
-  font-size: large; 
+  align-self: auto;
+  font-size: x-large; 
   color: #fff;
   
 }
@@ -224,4 +225,9 @@ background-position: center center;
 position: relative;
 }
 /*-------------scroll_secition_end-------------*/
+@media screen and (min-width: 768px) {
+	a[href^="tel:"] {
+		pointer-events: none;
+	}
+}
 /*-----------------An2y変更end------------------*/
